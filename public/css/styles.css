@@ -3,13 +3,25 @@ body {
     height: 100%;
     /* background-color: lightgreen; */
 }
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: xx-large;
+    color: #002fff;
 
+}
+.img{
+    border:  5px solid rgb(0, 30, 255);
+}
 body {
     display: flex;
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #ffffe6;
+    /* background-image: linear-gradient(240deg, #ffdd00,#ffffff); */
+    background: url(../images/bg3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .form-signin {
@@ -22,18 +34,34 @@ body {
 }
 
 .top{
-    margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+    margin-bottom: 1px;
+    /* border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0; */
+    /* background-image: linear-gradient(180deg, #6fff00,#ffffff); */
+    opacity: 58%;
+    border:  5px solid rgb(21, 0, 255);
+
 }
 .middle{
-    margin-bottom: -1px;
-    border-radius: 0;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg, #ffffff,#ffffff);
+    opacity: 58%;
+    border:  5px solid rgb(0, 30, 255);
+    
+
 }
 
 .bottom{
     margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+    /* border-top-left-radius: 0;
+    border-top-right-radius: 0; */
+    /* background-image: linear-gradient(360deg, #6fff00,#ffffff); */
+    opacity: 58%;
+    border:  5px solid rgb(0, 30, 255);
+
 }
 
+.btn{
+    background-image: linear-gradient(180deg, #ffff00,#a6ff8e);
+}
